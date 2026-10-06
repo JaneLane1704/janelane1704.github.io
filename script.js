@@ -120,7 +120,7 @@ function setYear(elem1, elem2) {
     let y = now.getFullYear();
 
     let expert = y - exprYear;
-    let report = 150 * expert;
+    let report = 50 * expert;
 
     elem1.textContent = expert + '+';
     elem2.textContent = report + '+';
